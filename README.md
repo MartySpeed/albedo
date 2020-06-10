@@ -1,4 +1,14 @@
-# John M. Anthony | Albedo Palazzo
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>John Anthony | Wed Dev Portfolio</title>    
+        <meta charset="utf-8">
+        <meta name="description" content="Here, you will find the completed and in progress work of John Anthony">
+        <link rel="stylesheet" href="assignments.css">
+    </head>
+
+
+<h1>John M. Anthony | Albedo Palazzo</h1>
 Web Dev Portfolio
 
 <p>My name is John Anthony, but some know me as Albedo Palazzo. My goal is to become a Software Engineer and I am practicing skills that make me a Full Stack Developer. I have several disciplines to include:
