@@ -1,5 +1,5 @@
 # John M. Anthony | Albedo Palazzo
-<a href="flexbox2.html">Web Dev Portfolio</a>
+Web Dev Portfolio
 
 <p>My name is John Anthony, but some know me as Albedo Palazzo. My goal is to become a Software Engineer and I am practicing skills that make me a Full Stack Developer. I have several disciplines to include:
   
