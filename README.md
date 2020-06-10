@@ -1,8 +1,7 @@
-# Flexbox Portfolio
+# John M. Anthony | Albedo Palazzo
+<a href="martyspeed.github.io/albedo/flexbox2.html">Web Dev Portfolio</a>
 
-<h1>John M. Anthony | Albedo Palazzo</h1>
-
-<p>My name is John Anthony, but some know me as Albedo Palazzo. I am a Computer Science nerd making his path to become a Software Engineer. To become that, I want skills that make me a Full Stack Developer. I have several disciplines to include:
+<p>My name is John Anthony, but some know me as Albedo Palazzo. My goal is to become a Software Engineer and I am practicing skills that make me a Full Stack Developer. I have several disciplines to include:
   
   <ul>
     <li><strong>HTML5 & CSS3</strong></li>
