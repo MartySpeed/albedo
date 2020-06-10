@@ -1,10 +1,17 @@
-# hello-world
-first project in github
+# Flexbox Portfolio
 
-Added a test paragraph for readme
+<h1>John M. Anthony | Albedo Palazzo</h1>
 
-Hello, my name is John Anthony and this is my first projct in Github on the course to becoming a better software engineer. To showcase my work and to see what I am capable of, outside of intruction.
+<p>My name is John Anthony, but some know me as Albedo Palazzo. I am a Computer Science nerd making his path to become a Software Engineer. To become that, I want skills that make me a Full Stack Developer. I have several disciplines to include:
+  
+  <ul>
+    <li><strong>HTML5 & CSS3</strong></li>
+     <li><strong>C#</strong></li>
+     <li><strong>C++</strong></li>
+     <li><strong>Javascript</strong></li>
+     <li><strong>Python</strong></li>
+  </ul>
 
-Testing the GitHub desktop application for when I start using this as my main server for future projects.
+I will be show casing my projects that host all of these skills and I would include more as I continue to create more projects and take on more request. My path to becoming better at my craft will be challenging. I am adding Javascript and Python to my Software Engineer tool kit. In addition to these skills, I am also a game developer and work with C#, C++ and Blueprint Visual Scripting. I plan to use and hone all of my skills together to create something that my fingers and brain thirst for. I do know know where my projects will take me, but I plan to make sure that I can explain it, and constantly riase my skills in this process to discover something within myself.</p>
 
-I have to send this again, I did not include an update with my push to the origin. Do not forget to backup your information, save your new informatiton and always add a note. This helps other programmers see the work that you are doing and vice versa.
+<p>My desire is to create. I do not have a specific what, but I know that is what I want to to, As a Game Developer & Software Engineer, I will strive to join the most dedicated and hardworking programmers out there. Who share my visions of fantasy creatues, cool designs and very digital eye candy.</p>
