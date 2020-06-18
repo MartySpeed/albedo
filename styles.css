@@ -96,13 +96,14 @@ main{
     text-align: center;
     color: var(--text-secondary);
     background: var(--bg-secondary);
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0.3ch;
     width: 100%;
 }
 .logo svg {
     transform: rotate(0deg);
     transition: 700ms ease; /*rotation animates whenever the transformation value changes.*/
+    font-size: 1rem;
     
 }
 .logo-text {
@@ -113,7 +114,7 @@ main{
     transition: var(--transition-speed);
 }
 .navbar:hover .logo svg {
-    transform: rotate(-180deg);
+    transform: rotate(135deg);
     transition: 700ms ease;
 }
 /*SMALL SCREENS CELLPHONE*/
