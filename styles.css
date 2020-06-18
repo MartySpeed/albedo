@@ -1,4 +1,4 @@
-/*root pseudo class selector to set default html for the page using var for practice*/
+/*USING ROOT TO SET VARABLES FOR STYLES*/
 :root {
     font-size: 16px;
     font-family: 'Open Sans'; 
@@ -8,14 +8,13 @@
     --bg-secondary: #141418;
     --transition-speed: 600ms;
 }
-/*body element*/
 body {
     color: black;
     background-color: white;
     margin: 0;
     padding: 0;
 }
-/*psuedo element for the scroll bar*/
+/*SCROLL BAR EDIT*/
 body::-webkit-scrollbar {
 width: 0.25rem;
 }
@@ -25,12 +24,11 @@ background: #1e1e24;
 body::-webkit-scrollbar-thumb {
     background-image: #6649b8;
 }
-/*main element*/
 main{
     margin-left: 5rem;
     padding: 1rem;
 }
-/*setting up the navbar*/
+/*NAVBAR SETTINGS AND LAYOUT*/
 .navbar {
     position: fixed; /*keeps the navbar in the same location no matter where the cliewnt scrolls on the screen*/
     background-color: var(--bg-primary);
@@ -76,14 +74,14 @@ main{
     min-width: 2rem; /*minmum width for the svg*/
     margin: 0 1.5rem;
 }
-/*text illumination when you hover over the menu text*/
+/* TEXT HOVER: COLOR ILLUIMNATION FOR MENU SVG's*/
 .fa-primary {
     color: orangered;
 }
 .fa-secondary {
     color: mediumaquamarine;
 }
-/*transition for fa classes*/
+/*SVG & LOGO COLORS*/
 .fa-primary,
 .fa-secondary {
     transition: var(--transition-speed);
@@ -115,8 +113,7 @@ main{
     transform: rotate(-180deg);
     transition: 700ms ease;
 }
-/*Small screens*/
-/*media query allows to you to target certain ccs styles based on the screen size, orientation etc. */
+/*SMALL SCREENS CELLPHONE*/
 @media only screen and (max-width: 600px) {
     .navbar {
         bottom: 0;
@@ -136,7 +133,7 @@ main{
         margin: 0;
     }
 }
-/*Large screens*/
+/*LARGE SCREEN CELLPHONE*/
 @media only screen and (min-width: 600px) {
     .navbar {
         top: 0;
