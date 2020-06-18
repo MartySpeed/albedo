@@ -26,6 +26,7 @@ background: #1e1e24;
 body::-webkit-scrollbar-thumb {
     background-image: #6649b8;
 }
+/*SCROLL BAR END*/
 main{
     margin-left: 5rem;
     padding: 1rem;
@@ -113,7 +114,8 @@ main{
     left: -999px;
     transition: var(--transition-speed);
 }
-/*NAVBAR HOVER ANIMATION*/
+/*NAVBAT END*/
+/*MOBILE NAVBAR HOVER ANIMATION*/
 .navbar:hover .logo svg {
     transform: rotate(135deg);
     transition: 700ms ease;
@@ -159,3 +161,4 @@ main{
         left: 0px;
     }
 }
+/*MOBILE END*/
