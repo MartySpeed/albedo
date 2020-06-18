@@ -68,7 +68,7 @@ main{
 }
 .link-text {
     display: none; /*when not hovering over, the icon img shows only*/
-    margin-left: 1rem;
+    margin-left: 0.3rem;
     transition: 1200ms ease;
     font-weight: bold;
 }
@@ -96,8 +96,8 @@ main{
     text-align: center;
     color: var(--text-secondary);
     background: var(--bg-secondary);
-    font-size: 1rem;
-    letter-spacing: 0.3ch;
+    font-size: 1.5rem;
+    letter-spacing: 0.ch;
     width: 100%;
 }
 .logo svg {
@@ -113,6 +113,7 @@ main{
     left: -999px;
     transition: var(--transition-speed);
 }
+/*NAVBAR HOVER ANIMATION*/
 .navbar:hover .logo svg {
     transform: rotate(135deg);
     transition: 700ms ease;
