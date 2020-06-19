@@ -123,8 +123,8 @@ main{
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 10px 100px;
-    height: 1200px;
+    margin: 100px 100px;
+    height: 2000px;
     width: 1350px;
     background-color: #dde1e7;
     box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
@@ -133,7 +133,7 @@ main{
 .neu-res-header{
     margin: 20px auto 15px 30px;
     background-color: #d3d3d3cc;
-    height: 9%;
+    height: 8%;
     width: 95.5%;
     border-radius: 5px;
     text-align: center;
@@ -141,11 +141,12 @@ main{
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
 }
 .resume-intro {
-    margin: 5px 30px;
+    margin: 20px 30px;
     padding: 0 20px;
     background-color: #d3d3d3cc;
     text-align: left;
-    height: 12.5%;
+    text-indent: .5em;
+    height: 10%;
     border-radius: 7px;
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
 }
@@ -156,21 +157,20 @@ main{
 .resume-content {
     display: flex;
     flex-direction: column;
-    margin: 5px 30px;
+    margin: 20px 30px;
     padding: 0 20px;
     background-color: #d3d3d3cc;
     text-indent: .5em;
-    height: 50%;
+    height: 18.5%;
     border-radius: 7px;
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
 }
 .content-container {
     display: flex;
-    justify-content: flex-start;
 }
 .content-skills {
     background-color: #d3d3d3cc;
-    margin: 0 15px;
+    margin: 0 15px 0 0;
     text-align: left;
     height: 100%;
     width: 18.5%;
@@ -184,6 +184,27 @@ main{
     width: 12.5%;
     border-radius: 7px;
     box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.container-education{
+    display: flex;
+    background-color: #d3d3d3cc;
+    flex-direction: column;
+    margin: 5px 30px;
+    padding: 0 20px;
+    text-align: left;
+    text-indent: .5em;
+    height: 90%;
+    width: 92.5%;
+    border-radius: 7px;
+    box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.content-education {
+    background-color: pink;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
+    height: 50%;
+    text-indent: .5em;
 }
 .neu-list{
     font-weight: bold;
