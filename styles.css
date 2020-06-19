@@ -12,7 +12,7 @@
 }
 body {
     color: black;
-    background-color: white;
+    background-color: #dde1e7;
     margin: 0;
     padding: 0;
 }
@@ -114,7 +114,22 @@ main{
     left: -999px;
     transition: var(--transition-speed);
 }
-/*NAVBAT END*/
+/*NAVBAR END*/
+/*NEUMORPHISM STARTS*/
+.neu-container {
+    display: flex;
+    margin: 100px;
+    height: 900px;
+    width: 1350px;
+    
+    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 15px;
+
+}
+.neu-content {
+    margin: 2px 25px;
+    text-align: left;
+}
 /*MOBILE NAVBAR HOVER ANIMATION*/
 .navbar:hover .logo svg {
     transform: rotate(135deg);
