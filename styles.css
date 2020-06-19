@@ -118,17 +118,34 @@ main{
 /*NEUMORPHISM STARTS*/
 .neu-container {
     display: flex;
-    margin: 100px;
-    height: 900px;
+    margin: 0 100px;
+    height: 1200px;
     width: 1350px;
     
     box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
     border-radius: 15px;
 
+    justify-content: center;
+}
+.neu-header{
+    text-align: center;
+}
+.neu-res-header{
+    margin: 10px 30px;
+    height: 9%;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.neu-list{
+    font-weight: bold;
 }
 .neu-content {
-    margin: 2px 25px;
-    text-align: left;
+    margin: 5px 25px;
+    list-style-type: none;
+    display: inline;
 }
 /*MOBILE NAVBAR HOVER ANIMATION*/
 .navbar:hover .logo svg {
