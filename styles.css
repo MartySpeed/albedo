@@ -116,41 +116,83 @@ main{
 }
 /*NAVBAR END*/
 /*NEUMORPHISM STARTS*/
-.neu-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 100px;
-    height: 1200px;
-    width: 1350px;
-
-    background-color: #dde1e7;
-    
-    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
-    border-radius: 15px;
-
-    justify-content: center;
-}
 .neu-header{
     text-align: center;
 }
+.neu-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px 100px;
+    height: 1200px;
+    width: 1350px;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 15px;
+}
 .neu-res-header{
-    margin: 15px 375px;
+    margin: 20px auto 15px 30px;
     background-color: #d3d3d3cc;
     height: 9%;
-    width: 50%;
+    width: 95.5%;
     border-radius: 5px;
     text-align: center;
     letter-spacing: 0.5px;
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
 }
-.resume-content {
+.resume-intro {
     margin: 5px 30px;
     padding: 0 20px;
-    background-color: #d3d3d3cc;;
+    background-color: #d3d3d3cc;
     text-align: left;
-    height: 84%;
+    height: 12.5%;
     border-radius: 7px;
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+#resume-header {
+    text-align: left;
+}
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 30px;
+    padding: 0 20px;
+    background-color: #d3d3d3cc;
+    
+    text-indent: .5em;
+    height: 55%;
+    border-radius: 7px;
+    box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 30px;
+    padding: 0 20px;
+    background-color: #d3d3d3cc;
+    
+    text-indent: .5em;
+    height: 55%;
+    border-radius: 7px;
+    box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.content-skills {
+    /*background-color: #d3d3d3cc;*/
+    background-color: #ffffff;
+    text-align: left;
+    height: 50%;
+    width: 20%;
+    border-radius: 7px;
+    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.content-reg {
+    /*background-color: #d3d3d3cc;*/
+    background-color: #ffffff;
+    text-align: left;
+    height: 50%;
+    width: 20%;
+    border-radius: 7px;
+    box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
 }
 .neu-list{
     font-weight: bold;
