@@ -151,6 +151,7 @@ main{
 }
 #resume-header {
     text-align: left;
+    width: 100%;
 }
 .resume-content {
     display: flex;
@@ -158,39 +159,29 @@ main{
     margin: 5px 30px;
     padding: 0 20px;
     background-color: #d3d3d3cc;
-    
     text-indent: .5em;
-    height: 55%;
+    height: 50%;
     border-radius: 7px;
     box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
 }
 .content-container {
     display: flex;
-    flex-direction: row;
-    margin: 5px 30px;
-    padding: 0 20px;
-    background-color: #d3d3d3cc;
-    
-    text-indent: .5em;
-    height: 55%;
-    border-radius: 7px;
-    box-shadow: inset -3px -3px 7px #ffffff99, inset 3px 3px 5px rgba(94, 104, 121, .288);
+    justify-content: flex-start;
 }
 .content-skills {
-    /*background-color: #d3d3d3cc;*/
-    background-color: #ffffff;
+    background-color: #d3d3d3cc;
+    margin: 0 15px;
     text-align: left;
-    height: 50%;
-    width: 20%;
+    height: 100%;
+    width: 18.5%;
     border-radius: 7px;
     box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
 }
 .content-reg {
-    /*background-color: #d3d3d3cc;*/
-    background-color: #ffffff;
+    background-color: #d3d3d3cc;
     text-align: left;
-    height: 50%;
-    width: 20%;
+    height: 100%;
+    width: 12.5%;
     border-radius: 7px;
     box-shadow: -3px -3px 7px #ffffff99, 3px 3px 5px rgba(94, 104, 121, .288);
 }
