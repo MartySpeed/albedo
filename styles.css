@@ -236,6 +236,7 @@ main{
 }
 /*LARGE SCREEN CELLPHONE*/
 @media only screen and (min-width: 600px) {
+    /*NAVBAR START*/
     .navbar {
         top: 0;
         width: 5rem; /*rem is relative to the main elelement*/
@@ -254,5 +255,9 @@ main{
     {
         left: 0px;
     }
+    /*NAVBAR END*/
+    /*RESUME START*/
+    
+    /*RESUME END*/
 }
 /*MOBILE END*/
